@@ -134,15 +134,31 @@ A collection of papers, implementations, datasets, and tools for graph-level lea
 | subgraph2vec: Learning Distributed Representations of Rooted Sub-graphs from Large Graphs | KDD-MLG | 2016 | subgraph2vec | [[Paper](https://arxiv.org/pdf/1606.08928.pdf)] [[Code](https://github.com/MLDroid/subgraph2vec_tf)]|
 
 ----------
-## Graph Attention Network-based Community Detection
+## Graph-Level Deep Neural Networks
+### Recurrent Neural Network-based Graph-level Learning
 | Paper Title | Venue | Year | Method | Materials | 
 | ---- | :----: | :----: | :----: | :----: | 
-|Hierarchical attention network for attributed community detection of joint representation | Neural Comput. Appl. | 2022 | HiAN | [[Paper](https://doi.org/10.1007/s00521-021-06723-y)] |
-|Detecting communities from heterogeneous graphs: A context path-based graph neural network model | CIKM | 2021 | <nobr> CP-GNN <nobr> | [[Paper](https://arxiv.org/pdf/2109.02058.pdf)][[Code](https://github.com/RManLuo/CP-GNN)] | 
-|HDMI: High-order deep multiplex infomax | WWW | 2021 | HDMI | [[Paper](https://dl.acm.org/doi/fullHtml/10.1145/3442381.3449971)][[Code](https://github.com/baoyujing/HDMI)] |
-|Self-supervised heterogeneous graph neural network with co-contrastive learning | KDD | 2021 | HeCo | [[Paper](https://dl.acm.org/doi/10.1145/3447548.3467415)][[Code](https://github.com/liun-online/HeCo)] |
-|Unsupervised attributed multiplex network embedding | AAAI | 2020 | DMGI | [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/5985)][[Code](https://github.com/pcy1302/DMGI)] |
-|MAGNN: Metapath aggregated graph neural network for heterogeneous graph embedding | WWW | 2020 | MAGNN | [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380297)] [[Code](https://github.com/cynricfu/MAGNN)] |
+| GraphRNN: Generating Realistic Graphs with Deep Auto-regressive Models | ICML | 2018 | GraphRNN | [[Paper](http://proceedings.mlr.press/v80/you18a/you18a.pdf)] [[Code](https://github.com/snap-stanford/GraphRNN)]|
+| NetGAN: Generating Graphs via Random Walks | ICML | 2018 | GraphRNN | [[Paper](http://proceedings.mlr.press/v80/bojchevski18a/bojchevski18a.pdf)] [[Code](https://github.com/danielzuegner/netgan)]|
+| Substructure Assembling Network for Graph Classification | AAAI | 2018 | SAN | [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/11742)]|
+| Graph Classification using Structural Attention | KDD | 2018 | GAM | [[Paper](https://dl.acm.org/doi/pdf/10.1145/3219819.3219980)] [[Code](https://github.com/benedekrozemberczki/GAM)]|
+| Gated Graph Sequence Neural Networks | ICLR | 2016 | GGNN | [[Paper](https://arxiv.org/pdf/1511.05493.pdf)] [[Code](https://github.com/Microsoft/gated-graph-neural-network-samples)]|
+
+### Convolution Neural Network-based Graph-level Learning
+| Paper Title | Venue | Year | Method | Materials | 
+| ---- | :----: | :----: | :----: | :----: | 
+| Kernel Graph Convolutional Neural Networks | ICANN | 2018 | KCNN | [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-01418-6_3)] [[Code](https://github.com/giannisnik/cnn-graph-classification)]|
+| Dynamic Edge-Conditioned Filters in Convolutional Neural Networks on Graphs | CVPR | 2017 | ECC | [[Paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Simonovsky_Dynamic_Edge-Conditioned_Filters_CVPR_2017_paper.pdf)] [[Code](https://github.com/mys007/ecc)]|
+| Diffusion-Convolutional Neural Networks | NeurIPS | 2016 | DCNN | [[Paper](https://proceedings.neurips.cc/paper/2016/file/390e982518a50e280d8e2b535462ec1f-Paper.pdf)] [[Code](https://github.com/jcatw/dcnn)]|
+| Learning Convolutional Neural Networks for Graphs | ICML | 2016 | PATCHYSAN | [[Paper](http://proceedings.mlr.press/v48/niepert16.pdf)] [[Code](https://github.com/tvayer/PSCN)]|
+
+### Capsule Neural Network-based Graph-level Learning
+| Paper Title | Venue | Year | Method | Materials | 
+| ---- | :----: | :----: | :----: | :----: | 
+| Capsule Neural Networks for Graph Classification using Explicit Tensorial Graph Representations | arXiv | 2019 | PATCHYCaps | [[Paper](https://arxiv.org/pdf/1902.08399.pdf)] [[Code](https://github.com/BraintreeLtd/PatchyCapsules)]|
+| Capsule Graph Neural Network | ICLR | 2019 | CapsGNN | [[Paper](https://openreview.net/pdf?id=Byl8BnRcYm)] [[Code](https://github.com/benedekrozemberczki/CapsGNN)]|
+| Graph Capsule Convolutional Neural Networks | WCB | 2018 | GCAPSCNN | [[Paper](https://arxiv.org/pdf/1805.08090.pdf)] [[Code](https://github.com/vermaMachineLearning/Graph-Capsule-CNN-Networks)]|
+
 
 ----------
 ## Graph Adversarial Network-based Community Detection
