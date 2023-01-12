@@ -16,6 +16,7 @@ A collection of papers, implementations, datasets, and tools for graph-level lea
       
       
       
+      
   	- [GCN-based Community Detection](#gcn-based-community-detection)
   - [Graph Attention Network-based Community Detection](#graph-attention-network-based-community-detection)
   - [Generative Adversarial Network-based Community Detection](#graph-adversarial-network-based-community-detection)
@@ -28,9 +29,6 @@ A collection of papers, implementations, datasets, and tools for graph-level lea
 ----------
 ## A Timeline of Graph-level Learning
 ![timeline](timeline.png)
-----------
-## A Taxonomy Tree of Graph-level Learning
-![taxonomy](tree.png)
 ----------
 ## Survey
 | Paper Title | Venue | Year | Materials | 
