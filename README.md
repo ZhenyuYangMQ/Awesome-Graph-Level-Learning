@@ -4,27 +4,27 @@
 A collection of papers, implementations, datasets, and tools for graph-level learning.
 
 - [Awesome Graph-level Learning](#awesome-graph-level-Learning)
-  - [Survey](#survey)
-  - [Traditional Graph-level Learning](#traditional-graph-level-learning)
-    - [Graph Kernels](#graph-kernels)
-      -[Message Passing Kernels](#message-passing-kernels)
-      -[Shortest Path Kernels](#shortest-path-kernels)
-      -[Random Walk Kernels](#random-walk-kernels)
-      -[Optimal Assignment Kernels](#optimal-assignment-kernels)
-      -[Subgraph Kernels](#subgraph-kernels)
-      
-      
-      
-      
-      
-  	- [GCN-based Community Detection](#gcn-based-community-detection)
-  - [Graph Attention Network-based Community Detection](#graph-attention-network-based-community-detection)
-  - [Generative Adversarial Network-based Community Detection](#graph-adversarial-network-based-community-detection)
-  - [Autoencoder-based Community Detection](#autoencoder-based-community-detection)
-  - [Other Deep Learning-based Community Detection](#other-deep-learning-based-community-detection)
-  - [Non-Deep Learning-based Communtiy Detection](#non-deep-learning-based-communtiy-detection)
-  - [Datasets](#datasets)
-  - [Tools](#tools)  
+- [Survey](#survey)
+- [Traditional Graph-level Learning](#traditional-graph-level-learning)
+  - [Graph Kernels](#graph-kernels)
+    -[Message Passing Kernels](#message-passing-kernels)
+    -[Shortest Path Kernels](#shortest-path-kernels)
+    -[Random Walk Kernels](#random-walk-kernels)
+    -[Optimal Assignment Kernels](#optimal-assignment-kernels)
+    -[Subgraph Kernels](#subgraph-kernels)
+
+
+
+
+
+  - [GCN-based Community Detection](#gcn-based-community-detection)
+- [Graph Attention Network-based Community Detection](#graph-attention-network-based-community-detection)
+- [Generative Adversarial Network-based Community Detection](#graph-adversarial-network-based-community-detection)
+- [Autoencoder-based Community Detection](#autoencoder-based-community-detection)
+- [Other Deep Learning-based Community Detection](#other-deep-learning-based-community-detection)
+- [Non-Deep Learning-based Communtiy Detection](#non-deep-learning-based-communtiy-detection)
+- [Datasets](#datasets)
+- [Tools](#tools)  
 
 ----------
 ## A Timeline of Graph-level Learning
