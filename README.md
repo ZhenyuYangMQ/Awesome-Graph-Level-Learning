@@ -161,17 +161,46 @@ A collection of papers, implementations, datasets, and tools for graph-level lea
 
 
 ----------
-## Graph Adversarial Network-based Community Detection
+## Graph-Level Graph Neural Networks
+### Message Passing Neural Networks
 | Paper Title | Venue | Year | Method | Materials | 
 | ---- | :----: | :----: | :----: | :----: |  
-|CANE: Community-aware network embedding via adversarial training |Knowl. Inf. Syst. | 2021 | CANE | [[Paper](https://link.springer.com/article/10.1007%2Fs10115-020-01521-9)] | 
-|Self-training enhanced: Network embedding and overlapping community detection with adversarial learning | IEEE TNNLS | 2021 | ACNE <br> ACNE-ST <br> | [[Paper](https://ieeexplore.ieee.org/document/9451542)] |
-|Adversarial Learning of Balanced Triangles for Accurate Community Detection on Signed Networks |ICDM | 2021 | ABC | [[Paper](https://ieeexplore.ieee.org/document/9679159)] | 
-|SEAL: Learning heuristics for community detection with generative adversarial networks | KDD | 2020 | SEAL | [[Paper](https://dl.acm.org/doi/abs/10.1145/3394486.3403154)][[Code](https://github.com/yzhang1918/kdd2020seal)] |
-|Multi-class imbalanced graph convolutional network learning | IJCAI | 2020 | DR-GCN | [[Paper](https://www.ijcai.org/proceedings/2020/0398.pdf)] |
-|JANE: Jointly adversarial network embedding | IJCAI | 2020| JANE | [[Paper](https://www.ijcai.org/Proceedings/2020/0192.pdf)] |
-|ProGAN: Network embedding via proximity generative adversarial network | KDD | 2019 | ProGAN | [[Paper](https://dl.acm.org/doi/pdf/10.1145/3292500.3330866)] |
-|CommunityGAN: Community detection with generative adversarial nets | WWW | 2019 | CommunityGAN | [[Paper](https://dl.acm.org/doi/abs/10.1145/3308558.3313564)][[Code](https://github.com/SamJia/CommunityGAN)] |
+| The Surprising Power of Graph Neural Networks with Random Node Initialization | IJCAI | 2021RNI | [[Paper](https://arxiv.org/pdf/2010.01179.pdf)]|
+| Weisfeiler and Lehman Go Cellular: CW Networks | NeurIPS | 2021 | CWN | [[Paper](https://proceedings.neurips.cc/paper/2021/file/157792e4abb490f99dbd738483e0d2d4-Paper.pdf)] [[Code](https://github.com/twitter-research/cwn)]|
+| Weisfeiler and Lehman Go Topological: Message Passing Simplicial Networks | ICML | 2021 | SWL | [[Paper](http://proceedings.mlr.press/v139/bodnar21a/bodnar21a.pdf)] [[Code](https://github.com/twitter-research/cwn)]|
+| Expressive Power of Invariant and Equivariant Graph Neural Networks | ICLR | 2021 | FGNN | [[Paper](https://arxiv.org/pdf/2006.15646.pdf)] [[Code](https://github.com/mlelarge/graph_neural_net)]|
+| Relational Pooling for Graph Representations | ICML | 2019 | RP | [[Paper](http://proceedings.mlr.press/v97/murphy19a/murphy19a.pdf)] [[Code](https://github.com/PurdueMINDS/RelationalPooling)]|
+| Provably Powerful Graph Networks | NeurIPS | 2019 | PPGN | [[Paper](https://proceedings.neurips.cc/paper/2019/file/bb04af0f7ecaee4aae62035497da1387-Paper.pdf)] [[Code](https://github.com/hadarser/ProvablyPowerfulGraphNetworks)]|
+| Weisfeiler and Leman Go Neural: Higher-Order Graph Neural Networks | AAAI | 2019 | K-GNN | [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/4384)] [[Code](https://github.com/chrsmrrs/k-gnn)]|
+| How Powerful are Graph Neural Networks? | ICLR | 2019 | GIN | [[Paper](https://arxiv.org/pdf/1810.00826.pdf)] [[Code](https://github.com/weihua916/powerful-gnns)]|
+| Quantum-chemical Insights from Deep Tensor Neural Networks | Nat. Commun. | 2017 | DTNN | [[Paper](https://www.nature.com/articles/ncomms13890)] [[Code](https://github.com/atomistic-machine-learning/dtnn)]|
+| Neural Message Passing for Quantum Chemistry | ICML | 2017 | MPNN | [[Paper](http://proceedings.mlr.press/v70/gilmer17a/gilmer17a.pdf)] [[Code](https://github.com/priba/nmp_qc)]|
+| Interaction Networks for Learning about Objects, Relations and Physics | NeurIPS | 2016 | GraphSim | [[Paper](https://proceedings.neurips.cc/paper/2016/file/3147da8ab4a0437c15ef51a5cc7f2dc4-Paper.pdf)] [[Code](https://github.com/clvrai/Relation-Network-Tensorflow)]|
+| Convolutional Networks on Graphs for Learning Molecular Fingerprints | NeurIPS | 2015 | Fingerprint | [[Paper](https://proceedings.neurips.cc/paper/2015/file/f9be311e65d81a9ad8150a60844bb94c-Paper.pdf)] [[Code](https://github.com/HIPS/neural-fingerprint)]|
+
+
+
+### Subgraph-based GL-GNNs
+| Paper Title | Venue | Year | Method | Materials | 
+| ---- | :----: | :----: | :----: | :----: |  
+
+
+### Kernel-based GL-GNNs
+| Paper Title | Venue | Year | Method | Materials | 
+| ---- | :----: | :----: | :----: | :----: |  
+
+
+### Contrastive-based GL-GNNs
+| Paper Title | Venue | Year | Method | Materials | 
+| ---- | :----: | :----: | :----: | :----: |  
+
+
+### Spectral-based GL-GNNs
+| Paper Title | Venue | Year | Method | Materials | 
+| ---- | :----: | :----: | :----: | :----: |  
+
+
+
 
 ----------
 ## Autoencoder-based Community Detection
