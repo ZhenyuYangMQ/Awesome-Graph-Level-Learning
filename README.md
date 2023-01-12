@@ -67,49 +67,71 @@ A collection of papers, implementations, datasets, and tools for graph-level lea
 | Glocalized Weisfeiler-lehman Graph Kernels: Global-local Feature Maps of Graphs | ICDM | 2017 | Global-WL | [[Paper](https://ieeexplore.ieee.org/abstract/document/8215505)] [[Code](https://github.com/chrsmrrs/glocalwl)]|
 | Propagation kernels: Efficient Graph Kernels from Propagated Information | Mach. Learn. | 2016 | PK | [[Paper](https://link.springer.com/article/10.1007/s10994-015-5517-9)] [[Code](https://github.com/marionmari/propagation_kernels)]|
 | Weisfeiler-lehman Graph Kernels | J. Mach. Learn. Res. | 2011 | WL | [[Paper](https://www.jmlr.org/papers/volume12/shervashidze11a/shervashidze11a.pdf)] [[Code](https://github.com/BorgwardtLab/graph-kernels)]|
-| A linear-time graph kernel | ICDM | 2009 | IEPAN | [[Paper](https://ieeexplore.ieee.org/abstract/document/9314087)] [[Code](https://github.com/ysig/GraKeL)]|
+| A linear-time graph kernel | ICDM | 2009 | NHK | [[Paper](https://ieeexplore.ieee.org/abstract/document/5360243)] [[Code](https://github.com/ysig/GraKeL)]|
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### GCN-based Community Detection 
+#### Shortest Path Kernels 
 | Paper Title | Venue | Year | Method | Materials | 
 | ---- | :----: | :----: | :----: | :----: | 
-|Deep MinCut: Learning node embeddings from detecting communities | Pattern Recognit. | 2022 | DMC | [[Paper](https://doi.org/10.1016/j.patcog.2022.109126)] |
-|End-to-end modularity-based community co-partition in bipartite networks| CIKM | 2022 | BiCoN+GCN | [[Paper](https://dl.acm.org/doi/10.1145/3511808.3557309)] |
-|CLARE: A semi-supervised community detection algorithm | KDD | 2022 | CLARE | [[Paper](https://dl.acm.org/doi/10.1145/3534678.3539370)] [[Code](https://github.com/FDUDSDE/KDD2022CLARE)] |
-|Efficient graph convolution for joint node representation learning and clustering  | WSDM | 2022 | GCC | [[Paper](https://dl.acm.org/doi/10.1145/3488560.3498533)] [[Code](https://github.com/chakib401/graph_convolutional_clustering)] |
-|Geometric graph representation learning via maximizing rate reduction | WWW | 2022 | $G^2R$ | [[Paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3512170)] [[Code](https://github.com/ahxt/G2R)] | 
-| RepBin: Constraint-based graph representation learning for metagenomic binning | AAAI | 2022 | RepBin | [[Paper](https://www.aaai.org/AAAI22Papers/AAAI-4979.XueH.pdf)] [[Code](https://github.com/xuehansheng/RepBin)] |
-|SSSNET: Semi-supervised signed network clustering | SDM | 2022 | SSSNET | [[Paper](https://arxiv.org/pdf/2110.06623.pdf)] [[Code](https://github.com/SherylHYX/SSSNET_Signed_Clustering)] | 
-|Learning Guarantees for Graph Convolutional Networks on The Stochastic Block Model | ICLR | 2022 | GCN-SBM | [[Paper](https://openreview.net/forum?id=dpXL6lz4mOQ)] |
-|When convolutional network meets temporal heterogeneous graphs: An effective community detection method | IEEE TKDE| 2021 | THGCN | [[Paper](https://ieeexplore.ieee.org/document/9479741)] |
-|Multi-view contrastive graph clustering | NIPS | 2021 | MCGC | [[paper](https://proceedings.neurips.cc/paper/2021/file/10c66082c124f8afe3df4886f5e516e0-Paper.pdf)] [[Code](https://github.com/Panern/MCGC)] |
-|Graph debiased contrastive learning with joint representation clustering | IJCAI | 2021 | Zhao _et al._ | [[Paper](https://www.ijcai.org/proceedings/2021/0473.pdf)] | 
-|Spectral embedding network for attributed graph clustering | Neural Netw. | 2021 | SENet | [[Paper](https://www.sciencedirect.com/science/article/pii/S0893608021002227)] | 
-|Unsupervised learning for community detection in attributed networks based on graph convolutional network | Neurocomputing | 2021 | SGCN | [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231221008110)] |
-|Adaptive graph encoder for attributed graph embedding | KDD | 2020 | AGE | [[Paper](https://dl.acm.org/doi/10.1145/3394486.3403140)][[Code](https://github.com/thunlp/AGE)] |
-|CommDGI: Community detection oriented deep graph infomax | CIKM | 2020 | CommDGI | [[Paper](https://dl.acm.org/doi/abs/10.1145/3340531.3412042)] | 
-|Going deep: Graph convolutional ladder-shape networks | AAAI | 2020 | GCLN | [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/5673/5529)] |
-|Independence promoted graph disentangled networks | AAAI | 2020 | IPGDN | [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/5929/5785)] |
-|Supervised community detection with line graph neural networks | ICLR | 2019 | LGNN | [[Paper](https://openreview.net/pdf?id=H1g0Z3A9Fm)][[Code](https://github.com/zhengdao-chen/GNN4CD)] |
-|Graph convolutional networks meet Markov random fields: Semi-supervised community detection in attribute networks | AAAI | 2019 | MRFasGCN | [[Paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/3780/3658)] |
-|Overlapping community detection with graph neural networks | DLG Workshop, KDD | 2019 | NOCD | [[Paper](https://deep-learning-graphs.bitbucket.io/dlg-kdd19/accepted_papers/DLG_2019_paper_3.pdf)][[Code](https://github.com/shchur/overlapping-community-detection)] |
-|Attributed graph clustering via adaptive graph convolution | IJCAI | 2019 | AGC | [[Paper](https://www.ijcai.org/Proceedings/2019/0601.pdf)][[Code](https://github.com/karenlatong/AGC-master)] |
-|CayleyNets: Graph convolutional neural networks with complex rational spectral filters | IEEE TSP | 2019 | CayleyNets | [[Paper](https://ieeexplore.ieee.org/document/8521593)][[Code](https://github.com/amoliu/CayleyNet)] |
+| Shortest-path Graph Kernels for Document Similarity | EMNLP | 2017 | SPK-DS | [[Paper](https://aclanthology.org/D17-1202.pdf)]|
+| Shortest-path Kernels on Graphs | ICDM | 2005 | SPK | [[Paper](https://ieeexplore.ieee.org/abstract/document/1565664)] [[Code](https://github.com/ysig/GraKeL)]|
+
+#### Random Walk Kernels 
+| Paper Title | Venue | Year | Method | Materials | 
+| ---- | :----: | :----: | :----: | :----: | 
+| Graph Kernels | J. Mach. Learn. Res. | 2010 | SOMRWK | [[Paper](https://www.jmlr.org/papers/volume11/vishwanathan10a/vishwanathan10a.pdf?ref=https://githubhelp.com)] [[Code](https://github.com/ysig/GraKeL)]|
+| Extensions of Marginalized Graph Kernels | ICML | 2004 | ERWK | [[Paper](https://dl.acm.org/doi/abs/10.1145/1015330.1015446)] [[Code](https://github.com/jajupmochi/graphkit-learn)]|
+| On Graph Kernels: Hardness Results and Efficient Alternatives | LNAI | 2003 | RWK | [[Paper](https://link.springer.com/chapter/10.1007/978-3-540-45167-9_11)] [[Code](https://github.com/jajupmochi/graphkit-learn)]|
+
+#### Optimal Assignment Kernels
+| Paper Title | Venue | Year | Method | Materials | 
+| ---- | :----: | :----: | :----: | :----: | 
+| Transitive Assignment Kernels for Structural Classification | SIMBAD | 2015 | TAK | [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-24261-3_12)]|
+| Learning With Similarity Functions on Graphs Using Matchings of Geometric Embeddings | KDD | 2015 | GE-OAK | [[Paper](https://dl.acm.org/doi/abs/10.1145/2783258.2783341)]|
+| Solving the Multi-way Matching Problem by Permutation Synchronization | NeurIPS | 2013 | PS-OAK | [[Paper](https://proceedings.neurips.cc/paper/2013/file/3df1d4b96d8976ff5986393e8767f5b2-Paper.pdf)] [[Code](https://github.com/zju-3dv/multiway)]|
+| Optimal Assignment Kernels for Attributed Molecular Graphs | ICML | 2005 | OAK | [[Paper](https://dl.acm.org/doi/abs/10.1145/1102351.1102380)]|
+
+#### Subgraph Kernels
+| Paper Title | Venue | Year | Method | Materials | 
+| ---- | :----: | :----: | :----: | :----: | 
+| Subgraph Matching Kernels for Attributed Graphs | ICML | 2012 | SMK | [[Paper](https://icml.cc/Conferences/2012/papers/542.pdf)] [[Code](https://github.com/fapaul/GraphKernelBenchmark)]|
+| Fast Neighborhood Subgraph Pairwise Distance Kernel | ICML | 2010 | NSPDK | [[Paper](https://icml.cc/Conferences/2010/papers/347.pdf)] [[Code](https://github.com/fabriziocosta/EDeN)]|
+| Efficient Graphlet Kernels for Large Graph Comparison | AISTATS | 2009 | Graphlet | [[Paper](http://proceedings.mlr.press/v5/shervashidze09a/shervashidze09a.pdf)] [[Code](https://github.com/ysig/GraKeL)]|
+
+### Subgraph Mining
+#### Frequent Subgraph Mining
+| Paper Title | Venue | Year | Method | Materials | 
+| ---- | :----: | :----: | :----: | :----: | 
+| gspan: Graph-based Substructure Pattern Mining | ICDM | 2002 | gspan | [[Paper](https://ieeexplore.ieee.org/abstract/document/1184038)] [[Code](https://github.com/betterenvi/gSpan)]|
+| Frequent Subgraph Discovery | ICDM | 2001 | FSG | [[Paper](https://ieeexplore.ieee.org/abstract/document/989534)] [[Code](https://github.com/NikhilGupta1997/Data-Mining-Algorithms)]|
+| An Apriori-based Algorithmfor Mining Frequent Substructures from Graph Data | ECML-PKDD | 2000 | AGM | [[Paper](https://link.springer.com/chapter/10.1007/3-540-45372-5_2)] [[Code](https://github.com/Aditi-Singla/Data-Mining)]|
+
+#### Discriminative Subgraph Mining
+| Paper Title | Venue | Year | Method | Materials | 
+| ---- | :----: | :----: | :----: | :----: | 
+| Multi-graph-view Learning for Graph Classification | ICDM | 2014 | gCGVFL | [[Paper](https://ieeexplore.ieee.org/abstract/document/7023376)]|
+| Positive and Unlabeled Learning for Graph Classification | ICDM | 2011 | gPU | [[Paper](https://ieeexplore.ieee.org/abstract/document/6137301)]|
+| Semi-supervised Feature Selection for Graph Classification | KDD | 2010 | gSSC | [[Paper](https://dl.acm.org/doi/abs/10.1145/1835804.1835905)]|
+| Multi-label Feature Selection for Graph Classification | ICDM | 2010 | gMLC | [[Paper](https://ieeexplore.ieee.org/abstract/document/5693981)]|
+| Near-optimal Supervised Feature Selection Among Frequent Subgraphs | SDM | 2009 | CORK | [[Paper](https://epubs.siam.org/doi/epdf/10.1137/1.9781611972795.92)]|
+| Mining Significant Graph Patterns by Leap Search | SIGMOD | 2008 | LEAP | [[Paper](https://dl.acm.org/doi/abs/10.1145/1376616.1376662)]|
+
+### Graph Embedding
+#### Deterministic Graph Embedding
+| Paper Title | Venue | Year | Method | Materials | 
+| ---- | :----: | :----: | :----: | :----: | 
+| Fast Attributed Graph Embedding via Density of States | ICDM | 2021 | A-DOGE | [[Paper](https://ieeexplore.ieee.org/abstract/document/9679053)] [[Code](https://github.com/sawlani/A-DOGE)]|
+| Bridging the Gap Between Von Neumann Graph Entropy and Structural Information: Theory and Applications | WWW | 2021 | VNGE | [[Paper](https://dl.acm.org/doi/abs/10.1145/3442381.3449804)] [[Code](https://github.com/xuecheng27/WWW21-Structural-Information)]|
+| Just SLaQ When You Approximate: Accurate Spectral Distances for Web-Scale Graphs | WWW | 2021 | SLAQ | [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380026)] [[Code](https://github.com/google-research/google-research/tree/master/graph embedding/slaq)]|
+| A Simple Yet Effective Baseline for Non-attributed Graph Classification | ICLR-RLGM | 2019 | LDP | [[Paper](https://arxiv.org/pdf/1811.03508.pdf)] [[Code](https://github.com/Chen-Cai-OSU/LDP)]|
+| Anonymous Walk Embeddings | ICML | 2018 | AWE | [[Paper](http://proceedings.mlr.press/v80/ivanov18a/ivanov18a.pdf)] [[Code](https://github.com/nd7141/AWE)]|
+| Hunt For The Unique, Stable, Sparse And Fast Feature Learning On Graphs | NeurIPS | 2017 | FGSD | [[Paper](https://proceedings.neurips.cc/paper/2017/file/d2ddea18f00665ce8623e36bd4e3c7c5-Paper.pdf)] [[Code](https://github.com/vermaMachineLearning/FGSD)]|
+
+#### Learnable Graph Embedding
+| Paper Title | Venue | Year | Method | Materials | 
+| ---- | :----: | :----: | :----: | :----: |
+| Learning Graph Representation via Frequent Subgraphs | SDM | 2018 | GE-FSG | [[Paper](https://epubs.siam.org/doi/epdf/10.1137/1.9781611975321.35)] [[Code](https://github.com/nphdang/GE-FSG)]|
+| graph2vec: Learning Distributed Representations of Graphs | KDD-MLG | 2017 | graph2vec | [[Paper](https://arxiv.org/pdf/1707.05005.pdf)] [[Code](https://github.com/MLDroid/graph2vec_tf)]|
+| subgraph2vec: Learning Distributed Representations of Rooted Sub-graphs from Large Graphs | KDD-MLG | 2016 | subgraph2vec | [[Paper](https://arxiv.org/pdf/1606.08928.pdf)] [[Code](https://github.com/MLDroid/subgraph2vec_tf)]|
 
 ----------
 ## Graph Attention Network-based Community Detection
