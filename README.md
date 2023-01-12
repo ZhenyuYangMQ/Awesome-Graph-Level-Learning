@@ -27,10 +27,10 @@ A collection of papers, implementations, datasets, and tools for graph-level lea
 
 ----------
 ## A Timeline of Graph-level Learning
-![timeline](timeline.pdf)
+![timeline](timeline.png)
 ----------
 ## A Taxonomy Tree of Graph-level Learning
-![taxonomy](tree.pdf)
+![taxonomy](tree.png)
 ----------
 ## Survey
 | Paper Title | Venue | Year | Materials | 
