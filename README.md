@@ -63,12 +63,11 @@ A collection of papers, implementations, datasets, and tools for graph-level lea
 #### Message Passing Kernels
 | Paper Title | Venue | Year | Method | Materials | 
 | ---- | :----: | :----: | :----: | :----: | 
-| A Persistent Weisfeiler-lehman Procedure for Graph Classification | ICML | 2009 | P-WL | [[Paper](http://proceedings.mlr.press/v97/rieck19a/rieck19a.pdf)] [[Code](https://github.com/BorgwardtLab/P-WL)]|
-|A deep learning approach for semi-supervised community detection in online social networks | Knowl.-Based Syst. | 2021 | SparseConv2D | [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705121006079)] |
-|Edge classification based on convolutional neural networks for community detection in complex network | Physica A | 2020 | ComNet-R | [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0378437120304271)] |
-|A deep learning based community detection approach | SAC | 2019 | SparseConv | [[Paper](https://doi.org/10.1145/3297280.3297574)] |
-|Deep community detection in topologically incomplete networks | Physica A | 2017 | Xin _et al._ | [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0378437116308342)] |
-| A linear-time graph kernel | ICDM | 2009 | IEPAN | [[Paper](https://ieeexplore.ieee.org/abstract/document/9314087)] |
+| A Persistent Weisfeiler-lehman Procedure for Graph Classification | ICML | 2019 | P-WL | [[Paper](http://proceedings.mlr.press/v97/rieck19a/rieck19a.pdf)] [[Code](https://github.com/BorgwardtLab/P-WL)]|
+| Glocalized Weisfeiler-lehman Graph Kernels: Global-local Feature Maps of Graphs | ICDM | 2017 | Global-WL | [[Paper](https://ieeexplore.ieee.org/abstract/document/8215505)] [[Code](https://github.com/chrsmrrs/glocalwl)]|
+| Propagation kernels: Efficient Graph Kernels from Propagated Information | Mach. Learn. | 2016 | PK | [[Paper](https://link.springer.com/article/10.1007/s10994-015-5517-9)] [[Code](https://github.com/marionmari/propagation_kernels)]|
+| Weisfeiler-lehman Graph Kernels | J. Mach. Learn. Res. | 2011 | WL | [[Paper](https://www.jmlr.org/papers/volume12/shervashidze11a/shervashidze11a.pdf)] [[Code](https://github.com/BorgwardtLab/graph-kernels)]|
+| A linear-time graph kernel | ICDM | 2009 | IEPAN | [[Paper](https://ieeexplore.ieee.org/abstract/document/9314087)] [[Code](https://github.com/ysig/GraKeL)]|
 
 
 
