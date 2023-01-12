@@ -121,7 +121,7 @@ A collection of papers, implementations, datasets, and tools for graph-level lea
 | ---- | :----: | :----: | :----: | :----: | 
 | Fast Attributed Graph Embedding via Density of States | ICDM | 2021 | A-DOGE | [[Paper](https://ieeexplore.ieee.org/abstract/document/9679053)] [[Code](https://github.com/sawlani/A-DOGE)]|
 | Bridging the Gap Between Von Neumann Graph Entropy and Structural Information: Theory and Applications | WWW | 2021 | VNGE | [[Paper](https://dl.acm.org/doi/abs/10.1145/3442381.3449804)] [[Code](https://github.com/xuecheng27/WWW21-Structural-Information)]|
-| Just SLaQ When You Approximate: Accurate Spectral Distances for Web-Scale Graphs | WWW | 2021 | SLAQ | [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380026)] [[Code](https://github.com/google-research/google-research/tree/master/graph embedding/slaq)]|
+| Just SLaQ When You Approximate: Accurate Spectral Distances for Web-Scale Graphs | WWW | 2021 | SLAQ | [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380026)] [[Code](https://github.com/google-research/google-research/tree/master/graph_embedding/slaq)]|
 | A Simple Yet Effective Baseline for Non-attributed Graph Classification | ICLR-RLGM | 2019 | LDP | [[Paper](https://arxiv.org/pdf/1811.03508.pdf)] [[Code](https://github.com/Chen-Cai-OSU/LDP)]|
 | Anonymous Walk Embeddings | ICML | 2018 | AWE | [[Paper](http://proceedings.mlr.press/v80/ivanov18a/ivanov18a.pdf)] [[Code](https://github.com/nd7141/AWE)]|
 | Hunt For The Unique, Stable, Sparse And Fast Feature Learning On Graphs | NeurIPS | 2017 | FGSD | [[Paper](https://proceedings.neurips.cc/paper/2017/file/d2ddea18f00665ce8623e36bd4e3c7c5-Paper.pdf)] [[Code](https://github.com/vermaMachineLearning/FGSD)]|
