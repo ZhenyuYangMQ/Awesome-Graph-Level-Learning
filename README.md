@@ -165,7 +165,7 @@ A collection of papers, implementations, datasets, and tools for graph-level lea
 ### Message Passing Neural Networks
 | Paper Title | Venue | Year | Method | Materials | 
 | ---- | :----: | :----: | :----: | :----: |  
-| The Surprising Power of Graph Neural Networks with Random Node Initialization | IJCAI | 2021RNI | [[Paper](https://arxiv.org/pdf/2010.01179.pdf)]|
+| The Surprising Power of Graph Neural Networks with Random Node Initialization | IJCAI | 2021 | RNI | [[Paper](https://arxiv.org/pdf/2010.01179.pdf)]|
 | Weisfeiler and Lehman Go Cellular: CW Networks | NeurIPS | 2021 | CWN | [[Paper](https://proceedings.neurips.cc/paper/2021/file/157792e4abb490f99dbd738483e0d2d4-Paper.pdf)] [[Code](https://github.com/twitter-research/cwn)]|
 | Weisfeiler and Lehman Go Topological: Message Passing Simplicial Networks | ICML | 2021 | SWL | [[Paper](http://proceedings.mlr.press/v139/bodnar21a/bodnar21a.pdf)] [[Code](https://github.com/twitter-research/cwn)]|
 | Expressive Power of Invariant and Equivariant Graph Neural Networks | ICLR | 2021 | FGNN | [[Paper](https://arxiv.org/pdf/2006.15646.pdf)] [[Code](https://github.com/mlelarge/graph_neural_net)]|
@@ -178,27 +178,43 @@ A collection of papers, implementations, datasets, and tools for graph-level lea
 | Interaction Networks for Learning about Objects, Relations and Physics | NeurIPS | 2016 | GraphSim | [[Paper](https://proceedings.neurips.cc/paper/2016/file/3147da8ab4a0437c15ef51a5cc7f2dc4-Paper.pdf)] [[Code](https://github.com/clvrai/Relation-Network-Tensorflow)]|
 | Convolutional Networks on Graphs for Learning Molecular Fingerprints | NeurIPS | 2015 | Fingerprint | [[Paper](https://proceedings.neurips.cc/paper/2015/file/f9be311e65d81a9ad8150a60844bb94c-Paper.pdf)] [[Code](https://github.com/HIPS/neural-fingerprint)]|
 
-
-
 ### Subgraph-based GL-GNNs
 | Paper Title | Venue | Year | Method | Materials | 
 | ---- | :----: | :----: | :----: | :----: |  
-
+| Equivariant Subgraph Aggregation Networks | ICLR | 2021 | ESAN | [[Paper](https://arxiv.org/pdf/2110.02910.pdf)] [[Code](https://github.com/beabevi/esan)]|
+| SUGAR: Subgraph Neural Network with Reinforcement Pooling and Self-Supervised Mutual Information Mechanism | WWW | 2021 | SUGAR | [[Paper](https://dl.acm.org/doi/abs/10.1145/3442381.3449822)] [[Code](https://github.com/RingBDStack/SUGAR)]|
+| A New Perspective on "How Graph Neural Networks Go Beyond Weisfeiler-Lehman?" | ICLR | 2021 | GraphSNN | [[Paper](https://openreview.net/pdf?id=uxgg9o7bI_3)] [[Code](https://github.com/wokas36/GraphSNN)]|
+| Nested Graph Neural Network | NeurIPS | 2021 | NGNN | [[Paper](https://proceedings.neurips.cc/paper/2021/file/8462a7c229aea03dde69da754c3bbcc4-Paper.pdf)] [[Code](https://github.com/muhanzhang/nestedgnn)]|
+| From Stars to Subgraphs: Uplifting Any GNN with Local Structure Awareness | ICLR | 2021 | GNN-AK | [[Paper](https://arxiv.org/pdf/2110.03753.pdf)] [[Code](https://github.com/LingxiaoShawn/GNNAsKernel)]|
+| Subgraph Neural Networks | NeurIPS | 2020 | SubGNN | [[Paper](https://proceedings.neurips.cc/paper/2020/file/5bca8566db79f3788be9efd96c9ed70d-Paper.pdf)] [[Code](https://github.com/mims-harvard/SubGNN)]|
+| Improving Graph Neural Network Expressivity via Subgraph Isomorphism Counting | IEEE Trans. Pattern Anal. Mach. Intell. | 2020 | GSN | [[Paper](https://ieeexplore.ieee.org/abstract/document/9721082)] [[Code](https://github.com/gbouritsas/GSN)]|
 
 ### Kernel-based GL-GNNs
 | Paper Title | Venue | Year | Method | Materials | 
 | ---- | :----: | :----: | :----: | :----: |  
-
+| Theoretically Improving Graph Neural Networks via Anonymous Walk Graph Kernels | WWW | 2021 | GSKN | [[Paper](https://dl.acm.org/doi/pdf/10.1145/3442381.3449951)] [[Code](https://github.com/YimiAChack/GSKN)]|
+| Random Walk Graph Neural Networks | NeurIPS| 2020 | RWNN | [[Paper](https://proceedings.neurips.cc/paper/2020/file/ba95d78a7c942571185308775a97a3a0-Paper.pdf)] [[Code](https://github.com/giannisnik/rwgnn)]|
+| Convolutional Kernel Networks for Graph-Structured Data | ICML | 2020 | GCKN | [[Paper](http://proceedings.mlr.press/v119/chen20h/chen20h.pdf)] [[Code](https://github.com/claying/GCKN)]|
+| DDGK: Learning Graph Representations for Deep Divergence Graph Kernels | WWW | 2019 | DDGK | [[Paper](https://dl.acm.org/doi/abs/10.1145/3308558.3313668)] [[Code](https://github.com/google-research/google-research/tree/master/graph_embedding/ddgk)]|
+| Graph Neural Tangent Kernel: Fusing Graph Neural Networks with Graph Kernels | NeurIPS | 2019 | GNTK | [[Paper](https://proceedings.neurips.cc/paper/2019/file/663fd3c5144fd10bd5ca6611a9a5b92d-Paper.pdf)] [[Code](https://github.com/KangchengHou/gntk)]|
 
 ### Contrastive-based GL-GNNs
 | Paper Title | Venue | Year | Method | Materials | 
 | ---- | :----: | :----: | :----: | :----: |  
-
+| Equivariant Subgraph Aggregation Networks | ICLR | 2021 | ESAN | [[Paper](https://arxiv.org/pdf/2110.02910.pdf)] [[Code](https://github.com/beabevi/esan)]|
+| Equivariant Subgraph Aggregation Networks | ICLR | 2021 | ESAN | [[Paper](https://arxiv.org/pdf/2110.02910.pdf)] [[Code](https://github.com/beabevi/esan)]|
+| Equivariant Subgraph Aggregation Networks | ICLR | 2021 | ESAN | [[Paper](https://arxiv.org/pdf/2110.02910.pdf)] [[Code](https://github.com/beabevi/esan)]|
+| Equivariant Subgraph Aggregation Networks | ICLR | 2021 | ESAN | [[Paper](https://arxiv.org/pdf/2110.02910.pdf)] [[Code](https://github.com/beabevi/esan)]|
+| Equivariant Subgraph Aggregation Networks | ICLR | 2021 | ESAN | [[Paper](https://arxiv.org/pdf/2110.02910.pdf)] [[Code](https://github.com/beabevi/esan)]|
 
 ### Spectral-based GL-GNNs
 | Paper Title | Venue | Year | Method | Materials | 
 | ---- | :----: | :----: | :----: | :----: |  
-
+| Equivariant Subgraph Aggregation Networks | ICLR | 2021 | ESAN | [[Paper](https://arxiv.org/pdf/2110.02910.pdf)] [[Code](https://github.com/beabevi/esan)]|
+| Equivariant Subgraph Aggregation Networks | ICLR | 2021 | ESAN | [[Paper](https://arxiv.org/pdf/2110.02910.pdf)] [[Code](https://github.com/beabevi/esan)]|
+| Equivariant Subgraph Aggregation Networks | ICLR | 2021 | ESAN | [[Paper](https://arxiv.org/pdf/2110.02910.pdf)] [[Code](https://github.com/beabevi/esan)]|
+| Equivariant Subgraph Aggregation Networks | ICLR | 2021 | ESAN | [[Paper](https://arxiv.org/pdf/2110.02910.pdf)] [[Code](https://github.com/beabevi/esan)]|
+| Equivariant Subgraph Aggregation Networks | ICLR | 2021 | ESAN | [[Paper](https://arxiv.org/pdf/2110.02910.pdf)] [[Code](https://github.com/beabevi/esan)]|
 
 
 
