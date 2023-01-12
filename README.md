@@ -5,7 +5,7 @@ A collection of papers, implementations, datasets, and tools for graph-level lea
 
 
 - [Awesome Graph-level Learning](#a-timeline-of-graph-level-learning)
-  - [Survey](#survey)
+  - [Surveys](#surveys)
   - [Traditional Graph-level Learning](#traditional-graph-level-learning)
     - [Graph Kernels](#graph-kernels)
       - [Message Passing Kernels](#message-passing-kernels)
@@ -47,24 +47,16 @@ A collection of papers, implementations, datasets, and tools for graph-level lea
 ## A Timeline of Graph-level Learning
 ![timeline](timeline.png)
 ----------
-## Survey
+## Surveys
 | Paper Title | Venue | Year | Materials | 
 | ---- | :----: | :----: | :----: | 
 | A Comprehensive Survey of Graph-level Learning | arXiv | 2023 | [[Paper](https://ieeexplore.ieee.org/document/9732192)]|
-| Graph pooling for graph neural networks: Progress, challenges, and opportunities | arXiv | 2022 | [[Paper](https://arxiv.org/pdf/2204.07321.pdf)]|
-| Deep learning for community detection: Progress, challenges and opportunities | IJCAI | 2020 | [[Paper](https://www.ijcai.org/Proceedings/2020/0693.pdf)] <br>[[Report](https://cloud.tencent.com/developer/article/1632305)]| 
-| A survey of community detection methods in multilayer networks | Data Min. Knowl. Discov. | 2020 | [[Paper](https://link.springer.com/article/10.1007/s10618-020-00716-6)] |
-| Community detection in node-attributed social networks: A survey | Comput. Sci. Rev. | 2020 | [[Paper](https://www.sciencedirect.com/science/article/pii/S1574013720303865)] |
-| Community detection in networks: A multidisciplinary review | J. Netw. Comput. Appl. | 2018| [[Paper](https://www.sciencedirect.com/science/article/pii/S1084804518300560)] |
-| Community discovery in dynamic networks: A survey | ACM Comput. Surv. | 2018 | [[Paper](https://dl.acm.org/doi/10.1145/3172867)] |
-| Evolutionary computation for community detection in networks: A review | IEEE TEVC | 2018 | [[Paper](https://ieeexplore.ieee.org/document/8004509)] |
-| Metrics for community analysis: A survey | ACM Comput. Surv. | 2017 | [[Paper](https://dl.acm.org/doi/10.1145/3091106)] |
-| Network community detection: A review and visual survey | Preprint | 2017 | [[Paper](https://arxiv.org/abs/1708.00977)] |
-| Community detection in networks: A user guide | Phys. Rep. | 2016 | [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0370157316302964)] |
-| Community detection in social networks | WIREs Data Min. Knowl. Discov. | 2016 | [[Paper](https://onlinelibrary.wiley.com/doi/abs/10.1002/widm.1178)]|
-| Overlapping community detection in networks: The state-of-the-art and comparative study| ACM Comput. Surv. | 2013 | [[Paper](https://dl.acm.org/doi/10.1145/2501654.2501657)] |
-| Clustering and community detection in directed networks: A survey | Phys. Rep. | 2013 | [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0370157313002822)] |
-| Community detection in graphs | Phys. Rep. | 2010 | [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0370157309002841)] |
+| Graph Pooling for Graph Neural Networks: Progress, Challenges, and Opportunities | arXiv | 2022 | [[Paper](https://arxiv.org/pdf/2204.07321.pdf)]|
+| Graph-level Neural Networks: Current Progress and Future Directions | arXiv | 2022 | [[Paper](https://arxiv.org/pdf/2205.15555.pdf)]| 
+| A Survey on Graph Kernels | Appl. Netw. Sci. | 2020 | [[Paper](https://appliednetsci.springeropen.com/articles/10.1007/s41109-019-0195-3?ref=https://githubhelp.com)] |
+| Deep Learning on Graphs: A Survey | IEEE Trans. Knowl. Data Eng. | 2020 | [[Paper](https://ieeexplore.ieee.org/abstract/document/9039675)] |
+| A Comprehensive Survey on Graph Neural Networks | IEEE Trans. Neural Netw. Learn. Syst. | 2020| [[Paper](https://ieeexplore.ieee.org/abstract/document/9046288)] |
+
 
 ----------
 ## Convolutional Networks-based Community Detection
