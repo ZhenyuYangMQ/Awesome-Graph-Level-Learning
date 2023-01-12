@@ -1,12 +1,21 @@
 # Awesome Graph Level Learning
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) ![GitHub stars](https://img.shields.io/github/stars/ZhenyuYangMQ/Awesome-Graph-Level-Learning?color=yellow&label=Stars) ![GitHub forks](https://img.shields.io/github/forks/ZhenyuYangMQ/Awesome-Graph-Level-Learning?color=blue&label=Forks) 
 
-A collection of papers, implementations, datasets, and tools for deep and non-deep community detection.
+A collection of papers, implementations, datasets, and tools for graph-level learning.
 
-- [Awesome Deep Community Detection](#awesome-Deep-Community-Detection)
+- [Awesome Graph-level Learning](#awesome-graph-level-Learning)
   - [Survey](#survey)
-  - [Convolutional Networks-based Community Detection](#convolutional-networks-based-community-detection)
-  	- [CNN-based Community Detection](#cnn-based-community-detection)
+  - [Traditional Graph-level Learning](#traditional-graph-level-learning)
+  	- [Graph Kernels](#graph-kernels)
+  	  -[Message Passing Kernels](#message-passing-kernels)
+      -[Shortest Path Kernels](#shortest-path-kernels)
+      -[Random Walk Kernels](#random-walk-kernels)
+      -[Optimal Assignment Kernels](#optimal-assignment-kernels)
+      -[Subgraph Kernels](#subgraph-kernels)
+      
+      
+      
+      
   	- [GCN-based Community Detection](#gcn-based-community-detection)
   - [Graph Attention Network-based Community Detection](#graph-attention-network-based-community-detection)
   - [Generative Adversarial Network-based Community Detection](#graph-adversarial-network-based-community-detection)
@@ -17,13 +26,11 @@ A collection of papers, implementations, datasets, and tools for deep and non-de
   - [Tools](#tools)  
 
 ----------
-## Traditional Methods _VS._ Deep Learninig-based Methods
-![taxonomy](taxonomy.png)
-
+## A Timeline of Graph-level Learning
+![timeline](timeline.pdf)
 ----------
-## A Timeline of Community Detection Development
-![timeline](timeline.png)
-
+## A Taxonomy Tree of Graph-level Learning
+![taxonomy](tree.pdf)
 ----------
 ## Survey
 | Paper Title | Venue | Year | Materials | 
