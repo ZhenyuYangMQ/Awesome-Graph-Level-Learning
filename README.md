@@ -6,7 +6,8 @@ A collection of papers, implementations, datasets, and tools for graph-level lea
 - [Survey](#survey)
 - [Traditional Graph-level Learning](#traditional-graph-level-learning)
   - [Graph Kernels](#graph-kernels)
-    -[Message Passing Kernels](#message-passing-kernels)
+    - [Message Passing Kernels](#message-passing-kernels)
+    
     
 
 
