@@ -13,13 +13,34 @@ A collection of papers, implementations, datasets, and tools for graph-level lea
       - [Random Walk Kernels](#random-walk-kernels)
       - [Optimal Assignment Kernels](#optimal-assignment-kernels)
       - [Subgraph Kernels](#subgraph-kernels)
-    - [GCN-based Community Detection](#gcn-based-community-detection)
-  - [Graph Attention Network-based Community Detection](#graph-attention-network-based-community-detection)
-  - [Generative Adversarial Network-based Community Detection](#graph-adversarial-network-based-community-detection)
-  - [Autoencoder-based Community Detection](#autoencoder-based-community-detection)
-  - [Other Deep Learning-based Community Detection](#other-deep-learning-based-community-detection)
-  - [Non-Deep Learning-based Communtiy Detection](#non-deep-learning-based-communtiy-detection)
+    - [Subgraph Mining](#subgraph-mining)
+      - [Frequent Subgraph Mining](#frequent-subgraph-mining)
+      - [Discriminative Subgraph Mining](#discriminative-subgraph-mining)
+    - [Graph Embedding](#graph-embedding)
+      - [Deterministic Graph Embedding](#deterministic-graph-embedding)
+      - [Learnable Graph Embedding](#learnable-graph-embedding)
+  - [Graph-Level Deep Neural Networks (GL-DNNs)](#graph-Level-deep-neural-networks)
+    - [Recurrent Neural Network-based Graph-level Learning](#recurrent-neural-network-based-graph-level-learning)
+    - [Convolution Neural Network-based Graph-level Learning](#convolution-neural-network-based-graph-level-learning)
+    - [Capsule Neural Network-based Graph-level Learning](#capsule-neural-network-based-graph-level-learning)
+  - [Graph-Level Graph Neural Networks (GL-GNNs)](#graph-Level-graph-neural-networks)
+    - [Message Passing Neural Networks](#message-passing-neural-networks)
+    - [Subgraph-based GL-GNNs](#Subgraph-based-gl-gnns)
+    - [Kernel-based GL-GNNs](#kernel-based-gl-gnns)
+    - [Contrastive-based GL-GNNs](#contrastive-based-gl-gnns)
+    - [Spectral-based GL-GNNs](#spectral-based-gl-gnns)
+  - [Graph Pooling](#graph-pooling)
+    - [Global Graph Pooling](#global-graph-pooling)
+      - [Numeric Operation Pooling](#numeric-operation-pooling)
+      - [Attention-based Pooling](#attention-based-pooling)
+      - [Convolution Neural Network-based Pooling](#convolution-neural-network-based-pooling) 
+      - [Global Top-K Pooling](#global-top-k-pooling)
+    - [Hierarchical Graph Pooling](#hierarchical-graph-pooling)
+      - [Clustering-based Pooling](#clustering-based-pooling)
+      - [Hierarchical Top-K Pooling](#hierarchical-top-K-pooling)
+      - [Hierarchical Tree-based Pooling](#hierarchical-tree-based-pooling)
   - [Datasets](#datasets)
+  - [Applications](#Applications)
   - [Tools](#tools)  
 
 ----------
@@ -29,8 +50,8 @@ A collection of papers, implementations, datasets, and tools for graph-level lea
 ## Survey
 | Paper Title | Venue | Year | Materials | 
 | ---- | :----: | :----: | :----: | 
-| A comprehensive survey on community detection with deep learning | IEEE TNNLS | 2022 | [[Paper](https://ieeexplore.ieee.org/document/9732192)] <br> [[Report](https://www.aminer.cn/research_report/60da8c5f30e4d5752f50e7af)] <br> [[Supplementary](https://www.researchgate.net/publication/359222598_Supplementary_DeepCommunityDetectionSurveypdf)]|
-| A survey of community detection approaches: From statistical modeling to deep learning | IEEE TKDE | 2021 | [[Paper](https://ieeexplore.ieee.org/abstract/document/9511798)]|
+| A Comprehensive Survey of Graph-level Learning | arXiv | 2023 | [[Paper](https://ieeexplore.ieee.org/document/9732192)]|
+| Graph pooling for graph neural networks: Progress, challenges, and opportunities | arXiv | 2022 | [[Paper](https://arxiv.org/pdf/2204.07321.pdf)]|
 | Deep learning for community detection: Progress, challenges and opportunities | IJCAI | 2020 | [[Paper](https://www.ijcai.org/Proceedings/2020/0693.pdf)] <br>[[Report](https://cloud.tencent.com/developer/article/1632305)]| 
 | A survey of community detection methods in multilayer networks | Data Min. Knowl. Discov. | 2020 | [[Paper](https://link.springer.com/article/10.1007/s10618-020-00716-6)] |
 | Community detection in node-attributed social networks: A survey | Comput. Sci. Rev. | 2020 | [[Paper](https://www.sciencedirect.com/science/article/pii/S1574013720303865)] |
