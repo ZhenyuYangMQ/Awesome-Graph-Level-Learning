@@ -7,11 +7,7 @@ A collection of papers, implementations, datasets, and tools for graph-level lea
 - [Traditional Graph-level Learning](#traditional-graph-level-learning)
   - [Graph Kernels](#graph-kernels)
     -[Message Passing Kernels](#message-passing-kernels)
-    -[Shortest Path Kernels](#shortest-path-kernels)
-    -[Random Walk Kernels](#random-walk-kernels)
-    -[Optimal Assignment Kernels](#optimal-assignment-kernels)
-    -[Subgraph Kernels](#subgraph-kernels)
-
+    
 
 
 
