@@ -50,24 +50,41 @@ A collection of papers, implementations, datasets, and tools for graph-level lea
 ## Surveys
 | Paper Title | Venue | Year | Materials | 
 | ---- | :----: | :----: | :----: | 
-| A Comprehensive Survey of Graph-level Learning | arXiv | 2023 | [[Paper](https://ieeexplore.ieee.org/document/9732192)]|
+| A Comprehensive Survey of Graph-level Learning | arXiv | 2023 | [[Paper]()]|
 | Graph Pooling for Graph Neural Networks: Progress, Challenges, and Opportunities | arXiv | 2022 | [[Paper](https://arxiv.org/pdf/2204.07321.pdf)]|
 | Graph-level Neural Networks: Current Progress and Future Directions | arXiv | 2022 | [[Paper](https://arxiv.org/pdf/2205.15555.pdf)]| 
 | A Survey on Graph Kernels | Appl. Netw. Sci. | 2020 | [[Paper](https://appliednetsci.springeropen.com/articles/10.1007/s41109-019-0195-3?ref=https://githubhelp.com)] |
 | Deep Learning on Graphs: A Survey | IEEE Trans. Knowl. Data Eng. | 2020 | [[Paper](https://ieeexplore.ieee.org/abstract/document/9039675)] |
 | A Comprehensive Survey on Graph Neural Networks | IEEE Trans. Neural Netw. Learn. Syst. | 2020| [[Paper](https://ieeexplore.ieee.org/abstract/document/9046288)] |
 
-
 ----------
-## Convolutional Networks-based Community Detection
-### CNN-based Community Detection
+## Traditional Graph-level Learning
+### Graph Kernels
+#### Message Passing Kernels
 | Paper Title | Venue | Year | Method | Materials | 
 | ---- | :----: | :----: | :----: | :----: | 
-|Inductive representation learning via CNN for partially-unseen attributed networks | IEEE TNSE | 2021 | IEPAN | [[Paper](https://ieeexplore.ieee.org/abstract/document/9314087)] |
+| A Persistent Weisfeiler-lehman Procedure for Graph Classification | ICML | 2009 | P-WL | [[Paper](http://proceedings.mlr.press/v97/rieck19a/rieck19a.pdf)] [[Code](https://github.com/BorgwardtLab/P-WL)]|
 |A deep learning approach for semi-supervised community detection in online social networks | Knowl.-Based Syst. | 2021 | SparseConv2D | [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705121006079)] |
 |Edge classification based on convolutional neural networks for community detection in complex network | Physica A | 2020 | ComNet-R | [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0378437120304271)] |
 |A deep learning based community detection approach | SAC | 2019 | SparseConv | [[Paper](https://doi.org/10.1145/3297280.3297574)] |
 |Deep community detection in topologically incomplete networks | Physica A | 2017 | Xin _et al._ | [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0378437116308342)] |
+| A linear-time graph kernel | ICDM | 2009 | IEPAN | [[Paper](https://ieeexplore.ieee.org/abstract/document/9314087)] |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### GCN-based Community Detection 
 | Paper Title | Venue | Year | Method | Materials | 
