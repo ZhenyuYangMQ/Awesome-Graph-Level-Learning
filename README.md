@@ -4,7 +4,7 @@
 A collection of papers, implementations, datasets, and tools for graph-level learning.
 
 
-- [Awesome Graph-level Learning](#awesome-graph-level-learning)
+- [Awesome Graph-level Learning](#A Timeline of Graph-level Learning)
   - [Survey](#survey)
   - [Traditional Graph-level Learning](#traditional-graph-level-learning)
     - [Graph Kernels](#graph-kernels)
