@@ -274,30 +274,46 @@ A collection of papers, implementations, datasets, and tools for graph-level lea
 ----------
 ## Datasets
 ### Biology
+| Dataset | Size | Graphs | Classes | Link | 
+| ---- | :----: | :----: | :----: | :----: | 
+| ENZYMES | Small | 600 | 6 | [[[Link](http://www.chrsmrrs.com/graphkerneldatasets/ENZYMES.zip)]|
+
+
+
+
 - ENZYMES http://www.chrsmrrs.com/graphkerneldatasets/ENZYMES.zip
-- PROTEINS http://snap.stanford.edu/data/com-DBLP.html
+- PROTEINS https://www.chrsmrrs.com/graphkerneldatasets/PROTEINS.zip
 - D&D https://www.chrsmrrs.com/graphkerneldatasets/DD.zip
-- BACE
-- MUV
-- ppa
-### Online Social Networks
-- Facebook http://snap.stanford.edu/data/ego-Facebook.html
-- Epinions http://www.epinions.com/
+- BACE https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/bace.csv
+- MUV https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/muv.csv.gz
+- ppa https://ogb.stanford.edu/docs/graphprop/#ogbg-ppa
+
+### Chemistry
+- MUTAG http://snap.stanford.edu/data/ego-Facebook.html
+- SIDER http://www.epinions.com/
 - Youtube http://snap.stanford.edu/data/com-Youtube.html
 - Last.fm https://www.last.fm/
 - LiveJournal http://snap.stanford.edu/data/soc-LiveJournal1.html
 - Gplus http://snap.stanford.edu/data/ego-Gplus.html
+
+
 ### Traditional Social Networks
 - Cellphone Calls http://www.cs.umd.edu/hcil/VASTchallenge08/
 - Enron Mail http://www.cs.cmu.edu/~enron/
 - Friendship https://dl.acm.org/doi/10.1145/2501654.2501657
 - Rados http://networkrepository.com/ia-radoslaw-email.php 
 - Karate, Football, Dolphin http://www-personal.umich.edu/~mejn/netdata/
+
+
 ### Webpage Networks
 - IMDb https://www.imdb.com/
 - Wiki https://linqs.soe.ucsc.edu/data
+
+
 ### Product Co-purchasing Networks
 - Amazon http://snap.stanford.edu/data/#amazon
+
+
 ### Other Networks
 - Internet http://www-personal.umich.edu/~mejn/netdata/
 - Java https://github.com/gephi/gephi/wiki/Datasets
