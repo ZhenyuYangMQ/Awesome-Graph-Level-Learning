@@ -40,7 +40,6 @@ A collection of papers, implementations, datasets, and tools for graph-level lea
       - [Hierarchical Top-K Pooling](#hierarchical-top-K-pooling)
       - [Hierarchical Tree-based Pooling](#hierarchical-tree-based-pooling)
   - [Datasets](#datasets)
-  - [Applications](#Applications)
   - [Tools](#tools)  
 
 ----------
@@ -277,56 +276,64 @@ A collection of papers, implementations, datasets, and tools for graph-level lea
 | Dataset | Size | Graphs | Classes | Link | 
 | ---- | :----: | :----: | :----: | :----: | 
 | ENZYMES | Small | 600 | 6 | [Link](http://www.chrsmrrs.com/graphkerneldatasets/ENZYMES.zip)|
-
-
-
-
-- ENZYMES http://www.chrsmrrs.com/graphkerneldatasets/ENZYMES.zip
-- PROTEINS https://www.chrsmrrs.com/graphkerneldatasets/PROTEINS.zip
-- D&D https://www.chrsmrrs.com/graphkerneldatasets/DD.zip
-- BACE https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/bace.csv
-- MUV https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/muv.csv.gz
-- ppa https://ogb.stanford.edu/docs/graphprop/#ogbg-ppa
+| PROTEINS | Small | 1113 | 2 | [Link](https://www.chrsmrrs.com/graphkerneldatasets/PROTEINS.zip)|
+| D&D | Small | 1178 | 2 | [Link](https://www.chrsmrrs.com/graphkerneldatasets/DD.zip)|
+| BACE | Small | 1513 | 2 | [Link](https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/bace.csv)|
+| MUV | Medium | 93087 | 2 | [Link](https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/muv.csv.gz)|
+| ppa | Medium | 158100 | 37 | [Link](https://ogb.stanford.edu/docs/graphprop/#ogbg-ppa)|
 
 ### Chemistry
-- MUTAG http://snap.stanford.edu/data/ego-Facebook.html
-- SIDER http://www.epinions.com/
-- Youtube http://snap.stanford.edu/data/com-Youtube.html
-- Last.fm https://www.last.fm/
-- LiveJournal http://snap.stanford.edu/data/soc-LiveJournal1.html
-- Gplus http://snap.stanford.edu/data/ego-Gplus.html
+| Dataset | Size | Graphs | Classes | Link | 
+| ---- | :----: | :----: | :----: | :----: | 
+| MUTAG | Small | 188 | 2 | [Link](https://www.chrsmrrs.com/graphkerneldatasets/MUTAG.zip)|
+| SIDER | Small | 1427 | 2 | [Link](https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/sider.csv.gz)|
+| ClinTox | Small | 1477 | 2 | [Link](https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/clintox.csv.gz)|
+| BBBP | Small | 2039 | 2 | [Link](https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/BBBP.csv)|
+| Tox21 | Small | 7831 | 2 | [Link](https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/tox21.csv.gz)|
+| ToxCast | Small | 8576 | 2 | [Link](https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/toxcast_data.csv.gz)|
+| molhiv | Small | 41127 | 2 | [Link](https://ogb.stanford.edu/docs/graphprop/#ogbg-mol)|
+| molpcba | Medium | 437929 | 2 | [Link](https://ogb.stanford.edu/docs/graphprop/#ogbg-mol)|
+| FreeSolv | Small | 642 | - | [Link](https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/SAMPL.csv)|
+| ESOL | Small | 1128 | - | [Link](https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/delaney-processed.csv)|
+| Lipophilicity | Small | 4200 | - | [Link](https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/Lipophilicity.csv)|
+| AQSOL | Small | 9823 | - | [Link](https://github.com/graphdeeplearning/benchmarking-gnns)|
+| ZINC | Small | 12000 | - | [Link](https://github.com/graphdeeplearning/benchmarking-gnns)|
+| QM9 | Medium | 129433 | - | [Link](https://www.chrsmrrs.com/graphkerneldatasets/QM9.zip)|
 
+### Social Networks
+| Dataset | Size | Graphs | Classes | Link | 
+| ---- | :----: | :----: | :----: | :----: | 
+| IMDB-BINARY | Small | 1000 | 2 | [Link](https://www.chrsmrrs.com/graphkerneldatasets/IMDB-BINARY.zip)|
+| IMDB-MULTI | Small | 1500 | 3 | [Link](https://www.chrsmrrs.com/graphkerneldatasets/IMDB-MULTI.zip)|
+| DBLP_v1 | Small | 19456 | 2 | [Link](https://www.chrsmrrs.com/graphkerneldatasets/DBLP_v1.zip)|
+| COLLAB | Medium | 5000 | 3 | [Link](https://www.chrsmrrs.com/graphkerneldatasets/COLLAB.zip)|
+| REDDIT-BINARY | Small | 2000 | 2 | [Link](https://www.chrsmrrs.com/graphkerneldatasets/REDDIT-BINARY.zip)|
+| REDDIT-MULTI-5K | Medium | 4999 | 5 | [Link](https://www.chrsmrrs.com/graphkerneldatasets/REDDIT-MULTI-5K.zip)|
+| REDDIT-MULTI-12K | Medium | 11929 | 11 | [Link](https://www.chrsmrrs.com/graphkerneldatasets/REDDIT-MULTI-12K.zip)|
 
-### Traditional Social Networks
-- Cellphone Calls http://www.cs.umd.edu/hcil/VASTchallenge08/
-- Enron Mail http://www.cs.cmu.edu/~enron/
-- Friendship https://dl.acm.org/doi/10.1145/2501654.2501657
-- Rados http://networkrepository.com/ia-radoslaw-email.php 
-- Karate, Football, Dolphin http://www-personal.umich.edu/~mejn/netdata/
+### Computer Science
+| Dataset | Size | Graphs | Classes | Link | 
+| ---- | :----: | :----: | :----: | :----: | 
+| CIFAR10 | Medium | 60000 | 10 | [Link](https://github.com/graphdeeplearning/benchmarking-gnns)|
+| MNIST | Medium | 70000 | 10 | [Link](https://github.com/graphdeeplearning/benchmarking-gnns)|
+| code2 | Medium | 452741 | - | [Link](https://ogb.stanford.edu/docs/graphprop/#ogbg-code2)|
+| MALNET | Large | 1262024 | 696 | [Link](https://github.com/safreita1/malnet-graph)|
 
+### Library
+- TUDataset https://chrsmrrs.github.io/datasets/docs/datasets/
+- MoleculeNetDataset https://moleculenet.org/datasets-1
+- OGBDataset https://ogb.stanford.edu/docs/graphprop/
+- BenchmarkingDataset https://github.com/graphdeeplearning/benchmarking-gnns
 
-### Webpage Networks
-- IMDb https://www.imdb.com/
-- Wiki https://linqs.soe.ucsc.edu/data
-
-
-### Product Co-purchasing Networks
-- Amazon http://snap.stanford.edu/data/#amazon
-
-
-### Other Networks
-- Internet http://www-personal.umich.edu/~mejn/netdata/
-- Java https://github.com/gephi/gephi/wiki/Datasets
-- Hypertext http://www.sociopatterns.org/datasets
- 
  ----------
 ## Tools
-- Gephi https://gephi.org/
-- Pajek http://mrvar.fdv.uni-lj.si/pajek/
-- LFR https://www.santofortunato.net/resources
+- DGL https://www.dgl.ai/
+- Geometric https://pytorch-geometric.readthedocs.io/en/latest/
+- OGB https://ogb.stanford.edu/docs/home/
+- Benchmarking https://github.com/graphdeeplearning/benchmarking-gnns
 
 ----------
 **Disclaimer**
 
 If you have any questions, please feel free to contact us.
-Emails: <u>fanzhen.liu@hdr.mq.edu.au</u>, <u>xing.su2@hdr.mq.edu.au</u>
+Emails: <u>zhenyu.yang3@hdr.mq.edu.au</u>, <u>ge.zhang5@students.mq.edu.au</u>
