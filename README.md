@@ -276,7 +276,7 @@ A collection of papers, implementations, datasets, and tools for graph-level lea
 ### Biology
 - ENZYMES http://www.chrsmrrs.com/graphkerneldatasets/ENZYMES.zip
 - PROTEINS http://snap.stanford.edu/data/com-DBLP.html
-- D&D http://kddcup2016.azurewebsites.net/
+- D&D https://www.chrsmrrs.com/graphkerneldatasets/DD.zip
 - BACE
 - MUV
 - ppa
