@@ -276,7 +276,7 @@ A collection of papers, implementations, datasets, and tools for graph-level lea
 ### Biology
 | Dataset | Size | Graphs | Classes | Link | 
 | ---- | :----: | :----: | :----: | :----: | 
-| ENZYMES | Small | 600 | 6 | [[[Link](http://www.chrsmrrs.com/graphkerneldatasets/ENZYMES.zip)]|
+| ENZYMES | Small | 600 | 6 | [Link](http://www.chrsmrrs.com/graphkerneldatasets/ENZYMES.zip)|
 
 
 
