@@ -273,10 +273,13 @@ A collection of papers, implementations, datasets, and tools for graph-level lea
 
 ----------
 ## Datasets
-### Citation/Co-authorship Networks
-- Citeseer, Cora, Pubmed https://linqs.soe.ucsc.edu/data
-- DBLP http://snap.stanford.edu/data/com-DBLP.html
-- Chemistry, Computer Science, Medicine, Engineering http://kddcup2016.azurewebsites.net/
+### Biology
+- ENZYMES http://www.chrsmrrs.com/graphkerneldatasets/ENZYMES.zip
+- PROTEINS http://snap.stanford.edu/data/com-DBLP.html
+- D&D http://kddcup2016.azurewebsites.net/
+- BACE
+- MUV
+- ppa
 ### Online Social Networks
 - Facebook http://snap.stanford.edu/data/ego-Facebook.html
 - Epinions http://www.epinions.com/
