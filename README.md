@@ -201,7 +201,7 @@ A collection of papers, implementations, datasets, and tools for graph-level lea
 ### Contrastive-based GL-GNNs
 | Paper Title | Venue | Year | Method | Materials | 
 | ---- | :----: | :----: | :----: | :----: |  
-| Graph Contrastive Learning Automated | ICML | 2021 | JOAO | [[Paper](http://proceedings.mlr.press/v139/you21a/you21a.pdf)] [[Code](https://github.com/Shen-Lab/GraphCL Automated)]|
+| Graph Contrastive Learning Automated | ICML | 2021 | JOAO | [[Paper](http://proceedings.mlr.press/v139/you21a/you21a.pdf)] [[Code](https://github.com/Shen-Lab/GraphCL_Automated)]|
 | Contrastive Multi-View Representation Learning on Graphs | ICML | 2020 | MVGRL | [[Paper](http://proceedings.mlr.press/v119/hassani20a/hassani20a.pdf)] [[Code](https://github.com/kavehhassani/mvgrl)]|
 | GCC: Graph Contrastive Coding for Graph Neural Network Pre-Training | KDD | 2020 | ESAN | [[Paper](https://dl.acm.org/doi/abs/10.1145/3394486.3403168)] [[Code](https://github.com/THUDM/GCC)]|
 | InfoGraph: Unsupervised and Semi-supervised Graph-Level Representation Learning via Mutual Information Maximization | ICLR | 2020 | InfoGraph | [[Paper](https://openreview.net/pdf?id=r1lfF2NYvH)] [[Code](https://github.com/fanyun-sun/InfoGraph)]|
@@ -211,11 +211,10 @@ A collection of papers, implementations, datasets, and tools for graph-level lea
 | Paper Title | Venue | Year | Method | Materials | 
 | ---- | :----: | :----: | :----: | :----: |  
 | How Framelets Enhance Graph Neural Networks | ICML | 2021 | UFG | [[Paper](http://proceedings.mlr.press/v139/zheng21c/zheng21c.pdf)] [[Code](https://github.com/YuGuangWang/UFG)]|
-| Graph Neural Networks With Convolutional ARMA Filters | IEEE Trans. Pattern Anal.
-Mach. Intell. | 2021 | ARMA | [[Paper](https://ieeexplore.ieee.org/abstract/document/9336270)] [[Code](https://github.com/dmlc/dgl/tree/master/examples/pytorch/arma)]|
+| Graph Neural Networks With Convolutional ARMA Filters | IEEE Trans. Pattern Anal. Mach. Intell. | 2021 | ARMA | [[Paper](https://ieeexplore.ieee.org/abstract/document/9336270)] [[Code](https://github.com/dmlc/dgl/tree/master/examples/pytorch/arma)]|
 | Breaking the Limits of Message Passing Graph Neural Networks | ICML | 2021 | GNNMatlang | [[Paper](http://proceedings.mlr.press/v139/balcilar21a/balcilar21a.pdf)] [[Code](https://github.com/balcilar/gnn-matlang)]|
 | Transferability of Spectral Graph Convolutional Neural Networks | J. Mach. Learn. Res. | 2021 | GNNTFS | [[Paper](https://www.jmlr.org/papers/volume22/20-213/20-213.pdf)]|
-| Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering | NeurIPS | 2016 | ChebNet | [[Paper](https://proceedings.neurips.cc/paper/2016/file/04df4d434d481c5bb723be1b6df1ee65-Paper.pdf)] [[Code](https://github.com/mdeff/cnn graph)]|
+| Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering | NeurIPS | 2016 | ChebNet | [[Paper](https://proceedings.neurips.cc/paper/2016/file/04df4d434d481c5bb723be1b6df1ee65-Paper.pdf)] [[Code](https://github.com/mdeff/cnn_graph)]|
 
 ----------
 ## Graph Pooling
@@ -243,7 +242,7 @@ Mach. Intell. | 2021 | ARMA | [[Paper](https://ieeexplore.ieee.org/abstract/docu
 | Paper Title | Venue | Year | Method | Materials | 
 | ---- | :----: | :----: | :----: | :----: | 
 | Structure-Feature based Graph Self-adaptive Pooling | WWW | 2020 | GSAPool | [[Paper](https://dl.acm.org/doi/abs/10.1145/3366423.3380083)] [[Code](https://github.com/psp3dcg/gsapool)]|
-| An End-to-End Deep Learning Architecture for Graph Classification | AAAI | 2018 | SortPool | [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/11782)] [[Code](https://github.com/muhanzhang/pytorch DGCNN)]|
+| An End-to-End Deep Learning Architecture for Graph Classification | AAAI | 2018 | SortPool | [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/11782)] [[Code](https://github.com/muhanzhang/pytorch_DGCNN)]|
 
 ### Hierarchical Graph Pooling
 #### Clustering-based Pooling
@@ -254,7 +253,7 @@ Mach. Intell. | 2021 | ARMA | [[Paper](https://ieeexplore.ieee.org/abstract/docu
 | StructPool: Structured Graph Pooling via Conditional Random Fields | ICLR  | 2020 | StructPool | [[Paper](https://openreview.net/pdf?id=BJxg_hVtwH)] [[Code](https://github.com/Nate1874/StructPool)]|
 | Graph Convolutional Networks with EigenPooling | KDD | 2019 | EigenPool | [[Paper](https://dl.acm.org/doi/abs/10.1145/3292500.3330982)] [[Code](https://github.com/alge24/eigenpooling)]|
 | Hierarchical Graph Representation Learning with Differentiable Pooling | NeurIPS | 2018 | DiffPool | [[Paper](https://proceedings.neurips.cc/paper/2018/file/e77dbaf6759253c7c6d0efc5690369c7-Paper.pdf)] [[Code](https://github.com/RexYing/diffpool)]|
-| Deep Convolutional Networks on Graph-Structured Data | arXiv | 2015 | GraphCNN | [[Paper](https://arxiv.org/pdf/1506.05163.pdf)] [[Code](https://github.com/mdeff/cnn graph)]|
+| Deep Convolutional Networks on Graph-Structured Data | arXiv | 2015 | GraphCNN | [[Paper](https://arxiv.org/pdf/1506.05163.pdf)] [[Code](https://github.com/mdeff/cnn_graph)]|
 | Spectral Networks and Locally Connected Networks on Graphs | ICLR | 2014 | DLCN | [[Paper](https://arxiv.org/pdf/1312.6203.pdf)] |
 
 #### Hierarchical Top-K Pooling
