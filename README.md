@@ -50,7 +50,7 @@ A collection of papers, implementations, datasets, and tools for graph-level lea
 ## Surveys
 | Paper Title | Venue | Year | Materials | 
 | ---- | :----: | :----: | :----: | 
-| State of the Art and Potentialities of Graph-level Learning | Acm Comput. Surv. | 2023 | [[Paper](https://dl.acm.org/doi/abs/10.1145/3695863)]|
+| State of the Art and Potentialities of Graph-level Learning | Acm Comput. Surv. | 2024 | [[Paper](https://dl.acm.org/doi/abs/10.1145/3695863)]|
 | Graph Pooling for Graph Neural Networks: Progress, Challenges, and Opportunities | arXiv | 2022 | [[Paper](https://arxiv.org/pdf/2204.07321.pdf)]|
 | Graph-level Neural Networks: Current Progress and Future Directions | arXiv | 2022 | [[Paper](https://arxiv.org/pdf/2205.15555.pdf)]| 
 | A Survey on Graph Kernels | Appl. Netw. Sci. | 2020 | [[Paper](https://appliednetsci.springeropen.com/articles/10.1007/s41109-019-0195-3?ref=https://githubhelp.com)] |
